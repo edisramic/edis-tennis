@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "test": "jest",
-    "simulate": "tsc src/index.ts && node src/index.js"
+    "compile": "tsc src/index.ts",
+    "simulate": "node src/index.js"
   },
   "type": "commonjs",
   "devDependencies": {
